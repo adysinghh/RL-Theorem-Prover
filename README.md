@@ -1,4 +1,3 @@
-````markdown
 # RL-Driven Theorem Prover
 
 This project is a reinforcement learning system that **learns to prove logic theorems** by applying formal inference rules—just like a curious student exploring proofs step by step.
