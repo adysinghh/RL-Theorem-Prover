@@ -1,0 +1,52 @@
+[
+  {
+    "id": "simple_chain",
+    "axioms": ["A", "A→B", "B→C"],
+    "target": "C"
+  },
+  {
+    "id": "longer_chain",
+    "axioms": ["P", "P→Q", "Q→R", "R→S"],
+    "target": "S"
+  },
+  {
+    "id": "and_elim_1",
+    "axioms": ["A∧B"],
+    "target": "A"
+  },
+  {
+    "id": "and_elim_2",
+    "axioms": ["A∧B"],
+    "target": "B"
+  },
+  {
+    "id": "or_intro_1",
+    "axioms": ["A"],
+    "target": "A∨B"
+  },
+  {
+    "id": "or_intro_2",
+    "axioms": ["C"],
+    "target": "C∨A"
+  },
+  {
+    "id": "resolution_1",
+    "axioms": ["A∨B", "¬B∨C"],
+    "target": "A∨C"
+  },
+  {
+    "id": "resolution_2",
+    "axioms": ["A∨B", "¬A∨C"],
+    "target": "B∨C"
+  },
+  {
+    "id": "mixed_and_mp",
+    "axioms": ["A∧B", "B→C", "C→D"],
+    "target": "D"
+  },
+  {
+    "id": "mixed_and_mp2",
+    "axioms": ["A∧B", "A→C"],
+    "target": "C"
+  }
+]

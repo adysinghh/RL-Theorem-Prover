@@ -1,0 +1,4 @@
+[Step 0] Known: ['A', 'A→B', 'B→C']
+[Step 1] Known: ['A', 'A→B', 'B', 'B→C']
+[Step 2] Known: ['A', 'A→B', 'A∨B', 'A∨C', 'B', 'B→C', 'B∨A', 'B∨C']
+[Step 3] Known: ['A', 'A→B', 'A∨B', 'A∨C', 'B', 'B→C', 'B∨A', 'B∨C', 'C']
